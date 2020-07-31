@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:/Program Files/Android/Android Studio/gradle/gradle-4.1" />
+        <option name="gradleJvm" value="JDK" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/LayoutTransition" />
+            <option value="$PROJECT_DIR$/ScrollView" />
+            <option value="$PROJECT_DIR$/StaggeredGridLayoutManager" />
+            <option value="$PROJECT_DIR$/TestConstraintLayout" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/constraintlayout" />
+            <option value="$PROJECT_DIR$/demo1" />
+            <option value="$PROJECT_DIR$/demo2" />
+            <option value="$PROJECT_DIR$/demo4" />
+            <option value="$PROJECT_DIR$/demo5" />
+            <option value="$PROJECT_DIR$/demo6" />
+            <option value="$PROJECT_DIR$/demo7" />
+            <option value="$PROJECT_DIR$/demo8" />
+            <option value="$PROJECT_DIR$/demo9" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/resource" />
+            <option value="$PROJECT_DIR$/task1" />
+            <option value="$PROJECT_DIR$/task2" />
+            <option value="$PROJECT_DIR$/utilslibrary" />
+            <option value="$PROJECT_DIR$/坐标" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

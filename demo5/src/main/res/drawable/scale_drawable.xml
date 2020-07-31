@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Level属性从0到10000，默认是0，但是如果是0的话，就是不可见的。
+如果ScaleDrawable的级别越大，那么内部的Drawable看起来就越大。
+如果ScaleDrawable的等级为了10000，那么就没有缩放效果。
+如果ScaleDrawable的XML中所定义的缩放比例越大，那么内部的Drawable看起来就越小。
+
+-->
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scaleGravity="bottom"
+    android:scaleWidth="100%"
+    android:scaleHeight="100%">
+    <ripple android:color="@color/colorPrimary">
+        <item android:drawable="@drawable/one" />
+    </ripple>
+</scale>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+
+
+
+    <com.hsy.utils.utilslibrary.view.MultiSwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.hsy.utils.utilslibrary.view.MultiSwipeRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/main_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="#ffffff"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:rippleColor="#9a9ea1"
+        app:srcCompat="@drawable/top" />
+    <!--  app:elevation="6dp"//显示的阴影大小
+          app:pressedTranslationZ="12dp"//点击时的阴影大小-->
+
+</android.support.design.widget.CoordinatorLayout>
