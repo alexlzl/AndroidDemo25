@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="TextView不设置背景色，背景为阴影色"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+<!--                                <com.wudengwei.roundshadowlayout.widget.RoundShadowLayout-->
+
+<!--                                    android:layout_width="300dp"-->
+<!--                                    android:layout_height="150dp"-->
+<!--                                    android:id="@+id/roundlayout"-->
+<!--                                    app:radius="10dp"-->
+<!--                                    app:shadowRadius="3dp"-->
+<!--                                    app:shadowColor="#EEBB0000"-->
+<!--                                    android:layout_marginTop="25dp"-->
+<!--                                  >-->
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/roundlayout"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_margin="20dp"
+                        android:id="@+id/imagelayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/holo_green_dark">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/share_mock_activity_pic" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+<!--                                </com.wudengwei.roundshadowlayout.widget.RoundShadowLayout>-->
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_creater"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="View转化Bitmap" />
+
+            <ImageView
+                android:id="@+id/iv_viewtobitmap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

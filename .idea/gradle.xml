@@ -12,13 +12,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Behavior" />
             <option value="$PROJECT_DIR$/LayoutTransition" />
             <option value="$PROJECT_DIR$/ScrollView" />
             <option value="$PROJECT_DIR$/StaggeredGridLayoutManager" />
             <option value="$PROJECT_DIR$/TestConstraintLayout" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bitmap" />
             <option value="$PROJECT_DIR$/constraintlayout" />
             <option value="$PROJECT_DIR$/demo1" />
+            <option value="$PROJECT_DIR$/demo10" />
             <option value="$PROJECT_DIR$/demo2" />
             <option value="$PROJECT_DIR$/demo4" />
             <option value="$PROJECT_DIR$/demo5" />
