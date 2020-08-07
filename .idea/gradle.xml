@@ -22,6 +22,7 @@
             <option value="$PROJECT_DIR$/constraintlayout" />
             <option value="$PROJECT_DIR$/demo1" />
             <option value="$PROJECT_DIR$/demo10" />
+            <option value="$PROJECT_DIR$/demo11" />
             <option value="$PROJECT_DIR$/demo2" />
             <option value="$PROJECT_DIR$/demo4" />
             <option value="$PROJECT_DIR$/demo5" />
@@ -30,11 +31,12 @@
             <option value="$PROJECT_DIR$/demo8" />
             <option value="$PROJECT_DIR$/demo9" />
             <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/location" />
             <option value="$PROJECT_DIR$/resource" />
             <option value="$PROJECT_DIR$/task1" />
             <option value="$PROJECT_DIR$/task2" />
+            <option value="$PROJECT_DIR$/touch" />
             <option value="$PROJECT_DIR$/utilslibrary" />
-            <option value="$PROJECT_DIR$/坐标" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
