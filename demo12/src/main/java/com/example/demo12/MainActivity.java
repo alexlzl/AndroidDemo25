@@ -1,4 +1,4 @@
-package com.example.demo11;
+package com.example.demo12;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -9,31 +9,24 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+    int i;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-    }
-    int i=0;
-    @Override
-    public void onWindowFocusChanged(boolean hasFocus) {
-        super.onWindowFocusChanged(hasFocus);
-
         TextView textView=findViewById(R.id.test);
-        textView.setText("getbottom=="+textView.getBottom()+"getbottom-gettop"+(textView.getBottom()-textView.getTop())+"======"+"getright-getleft=="+(textView.getRight()-textView.getLeft())+"getright=="+textView.getRight());
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                i=i+10;
-                //相对于view原始位置移动的偏移量
-                textView.setTranslationX(i);
+//                ((ConstraintLayout)textView.getParent()).scrollBy(-100,-100);
+                //指的是View内容的偏移量，如果是ViewGroup的话作用的就是它的所有子view，如果是TextView的话则作用的就是TextView的内容。这两个api作用的对象是view的内容而不是view本身。
+                //
+                ((ConstraintLayout)textView.getParent()).scrollTo(-100,-100);
+//                textView.scrollBy(5,5);
+//               i=i+20;
+               //移动视图
+//                textView.offsetLeftAndRight(i);
                 Toast.makeText(MainActivity.this,"test",Toast.LENGTH_SHORT).show();
-//                ConstraintLayout.LayoutParams cl= (ConstraintLayout.LayoutParams) textView.getLayoutParams();
-//                cl.leftMargin=100;
-//                textView.setLayoutParams(cl);
-
             }
         });
     }
